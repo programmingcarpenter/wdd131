@@ -1,11 +1,43 @@
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>My test page</title>
-  </head>
-  <body>
-    <img src="" alt="My test image" />
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="Description" content="WDD 131 - Dynamic Web Fundamentals - Chad Carpenter - Home Page">
+  <meta name="Author" content="Chad Carpenter">
+  <title>WDD 131 - Dynamic Web Fundamentals - Chad Carpenter</title>
+  <link rel="stylesheet" href="styles/base.css">
+  <script src="scripts/getdates.js" defer></script>
+</head>
+<body>
+  <header><h1>WDD 131 - Dynamic Web Fundamentals - Chad Carpenter</h1>
+    <nav>
+      <a>LinkedIn</a>
+      <a>I-Learn</a>
+      <a>Scripture</a>
+      <a>Final Project</a>
+    </nav>
+  </header>
+  <main>
+    <div class="card">
+      <h1>About me</h1>
+      <p class="intro">My name is Chad Carpenter, I am from Arizona but currently live in Rexburg, Idaho finishing my 
+        Degree for Software engineering. I am also currently working at the Ace Hardware Store in town, however I am 
+        also currently searching for an internship. I love playing video games and hiking, I have hiked Half Dome in Yosemite 
+        and would love to do it again if given the oppurtunity.
+      </p>
+      <img class="img" src="images/good_photo.jpg" alt="Chad in the cold" width="300" height="400">
+    </div>
+    <div class="card2">
+      <h1>Resources</h1>
+      <ul><a href="https://www.w3schools.com">W3 Schools.com</a></ul>
+      <ul><a href="https://developer.mozilla.org/en-US">MDN Web Docs</a></ul>
+      <ul><a href="https://www.youtube.com">Youtube</a></ul>
+    </div>
+  </main>
+  <footer>
+    <p><span id="currentyear"></span> ♦ Chad Carpenter ♦ Idaho</p>
+    <p>Last Modification: <span id="lastmodified"></span></p>
+  </footer>
+</body>
 </html>
