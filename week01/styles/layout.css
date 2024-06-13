@@ -1,0 +1,48 @@
+body {
+    display: grid;
+    height: auto;
+    width: 100%;
+  }
+  
+  header {
+    background: rgb(98, 98, 98);
+    padding: 2rem;
+    grid-column: 1 / 4;
+    height: max-content;
+  }
+  
+  .nav {
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    height: max-content;
+    grid-column: 1 / 4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  main {
+    background: lightgray;
+    padding: 2rem;
+    height: 300px;
+    grid-column: 1 / 3;
+  }
+  
+  .right-sidebar {
+    background: white;
+    padding: 1rem;
+    grid-column: 3 / 4;
+  }
+  
+  footer {
+    background: rgb(98, 98, 98);
+    padding: 2rem;
+    width: 100%;
+    text-align: center;
+    grid-column: 1 / 4;
+  }
+  
+  body {
+    font-family: system-ui, sans-serif;
+  }
