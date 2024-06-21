@@ -1,0 +1,15 @@
+/* Larger Views ******************************/
+@media (min-width: 600px) {
+	nav ul {
+		display: flex;
+	}
+	nav ul li {
+		flex: 1 1 100%;
+	}
+    nav li {
+        display: block;
+    }
+    #menu {
+		display: none;
+	}
+}
