@@ -1,0 +1,27 @@
+@media (max-width: 800px) {
+    .data, .weather {
+        position: relative;
+    }
+
+    h2, h3 {
+        padding: 1rem;
+    }
+
+    h3 {
+        display: none;
+    }
+
+    h4 {
+        display: block;
+    }
+
+    #weather_icon{
+        display: inline;
+        max-width: 80px;
+        padding: 1rem;
+    }
+
+    main {
+        background-color: white;
+    }
+}

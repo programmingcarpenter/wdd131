@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place_small.css">
+    <script src="scripts/place.js" defer></script>
+    <title>Arizona</title>
+</head>
+<body>
+    <header><h1>Arizona</h1>
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/arizona_large.webp" media="(min-width: 800px)">
+                <img srcset="images/arizona_small.webp" alt="Arizona Landscape" media="(max-width: 800px)">
+            </picture>
+        </div>
+        <div class="data">
+            <h2>Data</h2>
+            <ul>
+                <li><b>Captial:</b> Phoenix</li>
+                <li><b>Population:</b> 7,359,197</li>
+                <li><b>Area:</b> 113,998 sq miles</li>
+                <li><b>Time Zone:</b> Mountain Standard Time</li>
+                <li><b>Nickname:</b> Grand Canyon State</li>
+                <li><b>Area Code:</b> (928)</li>
+            </ul>
+        </div>
+        <div class="weather">
+            <h3>Weather ⛅</h3>
+            <h4>Weather</h4>
+            <img id="weather_icon" srcset="images/weather_icon.svg" alt="weather icon" media="(max-width: 800px)">
+            <ul>
+                <li><b>Temperature:</b> <span id="temperature"></span></li>
+                <li><b>Conditions:</b> Sunny</li>
+                <li><b>Wind:</b> <span id="wind_speed"></span></li>
+                <li><b>Wind Chill:</b> <span id="wind_chill"></span></li>
+            </ul>
+        </div>
+    </main>
+</body>
+<footer>
+    <p><span id="currentyear"></span> ♦ Chad Carpenter ♦ Idaho</p>
+    <p>Last Modification: <span id="lastmodified"></span></p>
+  </footer>
+</html>
