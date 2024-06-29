@@ -7,12 +7,8 @@
         padding: 1rem;
     }
 
-    h3 {
-        display: none;
-    }
-
-    h4 {
-        display: block;
+    h3::after {
+        content: "";
     }
 
     #weather_icon{
