@@ -1,0 +1,36 @@
+* {
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-variation-settings: "wdth" 100;
+}
+
+body {
+    background-color: rgba(21,21,21,255);;
+    display: block;
+    padding: 1rem;
+    width: 100%;
+    max-width: 500px;
+}
+
+h1 {
+    color: #87b9ff;
+    font-family: Georgia;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: Georgia;
+    font-weight: 600;
+}
+
+#headerText {
+    color: #87b9ff;
+}
+
+img {
+    max-width: 800px;
+    max-height: 800px;
+    margin-bottom: 4rem;
+    opacity: 80%;
+}

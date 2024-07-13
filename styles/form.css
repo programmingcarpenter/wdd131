@@ -1,0 +1,124 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-variation-settings: "wdth" 100;
+}
+
+main {
+    background-color: lightgray;
+}
+
+form {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    padding: 1rem;
+
+}
+
+header {
+    padding: 1rem;
+    text-align: center;
+    font-size: 33px;
+    background-color: #2f7bc7;
+}
+
+fieldset {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: none;
+}
+
+#checkAll {
+    font-style: italic;
+    margin-bottom: .5rem;
+}
+
+label, div {
+    display: block;
+    font-weight: 700;
+}
+
+#productName, #installationDate, #name {
+    padding: .3rem;
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    height: 120px;
+    
+}
+
+#name {
+    width: 100%;
+}
+
+[type="checkbox"] {
+    width: 1rem;
+    height: 1rem;
+    margin-right: .5rem;
+}
+
+[type="submit"] {
+    width: 50%;
+    height: 40px;
+}
+
+/* stars */
+input[type="radio"] {
+	display: none;
+	position: relative;
+	caret-color: rgba(0, 0, 0, 0);
+}
+
+.stars {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: left;
+}
+
+.stars > label {
+	color: black;
+	width: 30px;
+	height: 30px;
+	font-size: 2rem;
+	margin-left: 5px;
+	display: flex;
+	align-items: center;
+	caret-color: rgba(0, 0, 0, 0); /* remove blinking cursor*/
+}
+
+.stars > label:hover {
+	color: white;
+}
+
+.stars > label::before {
+	content: "\2606";
+}
+
+.stars input:checked ~ label::before {
+	content: "\2605";
+}
+
+#written::after, #custName:after {
+    content: "(Optional)";
+    font-size: small;
+    color: blue;
+}
+
+footer {
+    background-color: #2f7bc7;
+    padding: 1rem;
+    color: black;
+    width: 100%;
+    justify-self: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: x-large;
+}
