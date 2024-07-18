@@ -1,0 +1,44 @@
+body {
+    height: auto;
+    width: 100%;
+    color: white;
+    border-color: white;
+}
+
+header {
+    justify-content: center;
+}
+
+label {
+    font-size: large;
+    color: #87b9ff;
+}
+
+main {
+    padding: 1rem;
+    width: 500px;
+    font-size: 17px;
+}
+
+.submit_button {
+    padding: .5rem;
+    width: 100%;
+    background-color: #095cd0b9;
+    color: white;
+}
+
+input {
+    font-size: large;
+    width: 100%;
+}
+
+form {
+    margin-top: 1rem;
+}
+
+div {
+    border-radius: 25px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-style: solid;
+}

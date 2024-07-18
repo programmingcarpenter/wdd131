@@ -1,0 +1,52 @@
+#card {
+    border-style: solid;
+    border-radius: 25px;
+    border-color: white;
+    padding: 1rem;
+    font-family: sans-serif;
+    width: 500px;
+    height: 400px;
+    margin-bottom: 2rem;
+}
+
+#cardContainer {
+    width: 98%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    place-items: center;
+    justify-content: center;
+    padding: .5rem;
+    padding-bottom: 50px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+h3 {
+    color: #87b9ff;
+    font-size: 25px;
+}
+
+p {
+    font-size: 20px;
+    color: rgb(143, 179, 255);
+}
+
+li {
+    color: white;
+    font-size: 14px;
+    padding-top: .5rem;
+}
+
+img {
+    border-radius: 10px;
+    
+}
+
+img:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+}
