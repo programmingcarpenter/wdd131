@@ -6,11 +6,6 @@ body {
     border-color: white;
 }
 
-header {
-    display: flex;
-    justify-content: center;
-}
-
 h1 {
     font-size: xx-large;
     color: #87b9ff;

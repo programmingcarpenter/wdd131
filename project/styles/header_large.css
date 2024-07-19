@@ -1,0 +1,23 @@
+/* Larger Views ******************************/
+
+@media (min-width: 800px) {
+    * {
+        max-width: 100%;
+    }
+	nav ul {
+		display: flex;
+	}
+	nav ul li {
+		flex: 1 1 100%;
+	}
+    nav li {
+        display: block;
+    }
+    #menu {
+		display: none;
+	}
+    header {
+        display: flex;
+        justify-content: center;
+    }
+}
