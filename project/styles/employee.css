@@ -8,10 +8,6 @@ h2 {
     padding-top: .5rem;
 }
 
-header {
-    justify-content: center;
-}
-
 body {
     height: auto;
     width: 100%;
@@ -34,14 +30,6 @@ body {
 
 p {
     margin-top: 1.5rem;
-}
-
-main {
-    width: 100%;
-    font-size: 17px;
-    padding-bottom: 2rem;
-    margin: auto;
-    margin-top: 10%;
 }
 
 .background_image {

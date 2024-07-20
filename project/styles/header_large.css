@@ -1,6 +1,6 @@
 /* Larger Views ******************************/
 
-@media (min-width: 800px) {
+@media (min-width: 700px) {
     * {
         max-width: 100%;
     }
@@ -20,4 +20,12 @@
         display: flex;
         justify-content: center;
     }
+}
+
+/*  Smaller Views  */
+@media (max-width: 700px) {
+    main {
+        place-items: center;
+    }
+
 }
